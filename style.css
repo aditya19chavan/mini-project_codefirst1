@@ -1,0 +1,587 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 226, 231);
+}
+/* <--------------------section 1-------------------------> */
+.line1 {
+    color: #d838f2;
+    font-weight: 700;
+    padding-top: 10px;
+    font-family:  "Arial", serif;
+}
+.line2 {
+color: black;
+font-weight: 700;
+font-size: 95px;
+font-family:  "Arial", serif;
+
+}
+.line3 {
+    color: black;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0em;
+    font-size: 25px;
+
+}
+
+.line4 {
+    color: #d838f2;
+    font-weight: 600;
+    padding-top: 5px;
+    font-size: 24px;
+    font-family:  "Arial", serif;
+   
+}
+
+#headpic {
+    width: 500px;
+    height: 580px;
+    display: block;
+    opacity: 1.0;
+    object-fit: fill;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 10%;
+   
+}
+
+.container1 {
+   display: flex;
+   padding-left: 50px;
+   padding-top: 50px;
+   
+   background-color: rgb(236, 226, 231);
+}
+
+.box {
+    border: 2px  #fff;
+    padding-bottom: 15px;
+    width: 500px;
+    background-color: #fff;
+    height: 40px;
+    font-size: 15px;
+    font-family:  "Arial", serif;
+    border-radius: 15px;
+    
+}
+
+.firstbar {
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 0.3px;
+}
+
+
+
+
+.box2 {
+    flex: 1; 
+    display: flex;
+    
+}
+
+/* <--------------------------Section---------------------> 2 */
+
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(236, 226, 231);
+}
+
+#secondpic {
+    flex: 0 0 auto; 
+    margin-right: 10px;
+    width: 450px;
+    height: 550px;
+    display: block;
+    opacity: 1.0;
+    object-fit: fill;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 15%;
+    display: flex;
+}
+
+.box2 {
+
+    
+   width: 750px;
+   height: 550px;
+   display: flexbox;
+   opacity: 1.0;
+   margin-right: 50px;
+   border-radius: 3%;
+    background-color: #fff;
+    font-family:  "Arial", serif;
+
+}
+
+.secondbar {
+    text-align:start;
+    font-size: 25px;
+    justify-content: center;
+    margin: 35px;
+    padding-bottom: 10px;
+}
+
+#btn1 {
+   width: 200px;
+   color: #fff;
+   font-size: medium;
+   font-weight: 700;
+   height: 50px;
+   border-radius: 10px;
+   border-color: #d838f2;
+   box-shadow: #d838f2;;
+    background-color:#d838f2;
+    
+}
+
+/* <-----------------------Section-----------------------> 3 */
+
+
+
+.section3 {
+    display: flex;
+    background-color: rgb(236, 226, 231);
+
+}
+.Temtitle {
+    text-align: center;
+    margin-top: 0px;
+}
+    
+
+
+.teamtitle {
+    justify-content: center;
+    text-align: center;
+    font-family: "Arial", serif;
+    color: #d838f2;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.teamintrod {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: slideFromLeft 1s forwards;
+       
+    }
+
+    @keyframes slideFromLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+
+    .leftside1 {
+        float: left;
+        margin: 50px;
+    }
+
+    .rightside1 {
+        float: right;
+        margin: 50px;
+    }
+
+.teammember1 {
+    background-color: white;
+    height: 130px;
+    width: 500px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+/* <-----------------Section---------------------> 4 */
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+    background-color: rgb(236, 226, 231);
+}
+
+#thirdpic {
+    flex: 0 0 auto; 
+    margin-right: 10px;
+    width: 550px;
+    height: 580px;
+    display: block;
+    opacity: 1.0;
+    object-fit: fill;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 20%;
+    display: flex;
+    animation: slideFromLeft 1s forwards;
+}
+
+.box3 {
+
+    flex: 0 1 auto; 
+    width: 600px;
+    height: 580px;
+    display: flexbox;
+    opacity: 1.0;
+    margin-left: 600px;
+    margin-top: 0px;
+    border-radius: 10%;
+    background-color: #fff;
+    margin-top: -650px;
+    font-family:  "Arial", serif;
+    animation: slideFromLeft 1s forwards;
+
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.thirdbar {
+    text-align:start;
+    font-size: 25px;
+    justify-content: center;
+    margin: 35px;
+    padding-bottom: 10px;
+}
+
+#btn2 {
+   width: 200px;
+   color: #fff;
+   font-size: 20px;
+   font-weight: 700;
+   height: 50px;
+   border-radius: 8px;
+   margin-top: -10px;
+   border-color: #d838f2;
+   position: static;
+   padding-bottom: -20px;
+   box-shadow: #d838f2;;
+   background-color:#d838f2;
+}
+
+
+/*<---------------------- section 5--------------------------> */
+
+#fourthpic {
+    flex: 0 0 auto; 
+    margin-right: 10px;
+    width: 550px;
+    height: 580px;
+    display: block;
+    opacity: 1.0;
+    object-fit: fill;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 20%;
+    display: flex;
+    animation: slideFromLeft 1s forwards;
+}
+
+.box4 {
+
+    flex: 0 1 auto; 
+    width: 600px;
+    height: 580px;
+    text-align: center;
+    opacity: 1.0;
+    margin-left: 600px;
+    margin-top: 60px;
+    border-radius: 10%;
+    background-color: #fff;
+    margin-top: -620px;
+    font-family:  "Arial", serif;
+    animation: slideFromLeft 1s forwards;
+
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.fourthdbar {
+    text-align:start;
+    font-size: 25px;
+    justify-content: center;
+    margin: 35px;
+    padding-bottom: 10px;
+}
+
+.box4text {
+    justify-content: center;
+    position: static;
+    padding: 30px;
+}
+
+
+/* <--------------------------------------  setion 6 ----------------------------------->*/
+
+
+
+
+.section6 {
+
+  display: block;
+    font-family: "Arial", serif;
+}
+
+.systemintro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slideFromLeft 1s forwards;
+}
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+.rightside {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 75px;
+    margin-top: -20px;
+}
+
+.systemleft {
+    float: left;
+    margin: 50px;
+    margin-bottom: 80px;
+}
+
+.systemright {
+    float: right;
+    margin: 50px;
+    margin-bottom: 50px;
+}
+
+.systemInfo {
+    background-color: white;
+    height: 120px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.StName {
+    font-size: 25px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+}
+
+.Stinfo {
+    color: #d838f2;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    width: 300px;
+}
+
+.texthelp {
+     display: block; 
+    font-family: "Arial", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -80px;
+    font-size: 20px;
+}
+
+.btn6 {
+    text-align: center;
+    background-color: #d838f2;
+    color: white;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    border-radius: 8px;
+    height: 50px;
+    width: 350px;
+    font-size: 18px;
+    border: none;
+    margin-bottom: 80px;
+}
+
+/* -------------------section 7----------------- */
+.sectionlast {
+    background-color: #d838f2;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.sectionlast-left {
+    display: block;
+    margin-left: 50px;
+}
+
+.sectionlast-whitetext {
+    color: white;
+    font-size: 30px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    width: 500px;
+}
+
+.sectionlast-dosentence {
+    font-size: 50px;
+    font-family: "Arial", serif;
+    width: 500px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+.teammember {
+    background-color: white;
+    height: 130px;
+    width: 500px;
+    border-radius: 25px;
+    animation: slideFromLeft 1s forwards;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+
+.section7 {
+    background-color: #d838f2;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.teaminfo {
+    float: right;
+    position: relative;
+    margin-right: 70px;
+}
+
+.teamimage {
+    height: 120px;
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 9px;
+}
+
+.position {
+    color: #d838f2;
+    font-size: 20px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+}
+
+.memName {
+    font-size: 20px;
+    font-family: "Arial", serif;
+    font-weight: bold;
+}
+
+.mailid {
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Arial", serif;
+}
+
+
+/* <-----------footer----------------> */
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 30px 0px 30px;
+    height: 50px;
+}
+
+.footer a {
+    font-family: "Arial", serif;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.footer button {
+    background-color: rgb(44, 42, 42);
+    font-family: "Arial", serif,monospace,"Courier New";
+    color: white;
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    width: 200px;
+}
+
+.footer a:hover {
+    background-color: rgb(44, 42, 42);
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    width: 120px;
+}
+
+.footer button:hover {
+    background-color: rgb(5, 107, 165);
+}
